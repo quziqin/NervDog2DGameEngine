@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NervDog", "NervDog\NervDog.csproj", "{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NervDog.TestBed", "NervDog.TestBed\NervDog.TestBed\NervDog.TestBed.csproj", "{38A98770-E9F2-49BE-82B8-D4674754C4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NervDog.TestBed.Content", "NervDog.TestBed\NervDog.TestBed.Content\NervDog.TestBed.Content.contentproj", "{A90D8C80-8F82-43C4-A675-A98A4F294B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Box2D.XNA", "Box2D.XNA\Box2D.XNA.csproj", "{22791486-E721-4511-AA4B-DA26CF5D0F2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}.Debug|x86.ActiveCfg = Debug|x86
+		{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}.Debug|x86.Build.0 = Debug|x86
+		{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}.Release|Any CPU.ActiveCfg = Release|x86
+		{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}.Release|Mixed Platforms.Build.0 = Release|x86
+		{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}.Release|x86.ActiveCfg = Release|x86
+		{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}.Release|x86.Build.0 = Release|x86
+		{38A98770-E9F2-49BE-82B8-D4674754C4AC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{38A98770-E9F2-49BE-82B8-D4674754C4AC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{38A98770-E9F2-49BE-82B8-D4674754C4AC}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{38A98770-E9F2-49BE-82B8-D4674754C4AC}.Debug|x86.ActiveCfg = Debug|x86
+		{38A98770-E9F2-49BE-82B8-D4674754C4AC}.Debug|x86.Build.0 = Debug|x86
+		{38A98770-E9F2-49BE-82B8-D4674754C4AC}.Release|Any CPU.ActiveCfg = Release|x86
+		{38A98770-E9F2-49BE-82B8-D4674754C4AC}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{38A98770-E9F2-49BE-82B8-D4674754C4AC}.Release|Mixed Platforms.Build.0 = Release|x86
+		{38A98770-E9F2-49BE-82B8-D4674754C4AC}.Release|x86.ActiveCfg = Release|x86
+		{38A98770-E9F2-49BE-82B8-D4674754C4AC}.Release|x86.Build.0 = Release|x86
+		{A90D8C80-8F82-43C4-A675-A98A4F294B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90D8C80-8F82-43C4-A675-A98A4F294B8B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A90D8C80-8F82-43C4-A675-A98A4F294B8B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A90D8C80-8F82-43C4-A675-A98A4F294B8B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90D8C80-8F82-43C4-A675-A98A4F294B8B}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A90D8C80-8F82-43C4-A675-A98A4F294B8B}.Release|x86.ActiveCfg = Debug|Any CPU
+		{22791486-E721-4511-AA4B-DA26CF5D0F2E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{22791486-E721-4511-AA4B-DA26CF5D0F2E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{22791486-E721-4511-AA4B-DA26CF5D0F2E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{22791486-E721-4511-AA4B-DA26CF5D0F2E}.Debug|x86.ActiveCfg = Debug|x86
+		{22791486-E721-4511-AA4B-DA26CF5D0F2E}.Debug|x86.Build.0 = Debug|x86
+		{22791486-E721-4511-AA4B-DA26CF5D0F2E}.Release|Any CPU.ActiveCfg = Release|x86
+		{22791486-E721-4511-AA4B-DA26CF5D0F2E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{22791486-E721-4511-AA4B-DA26CF5D0F2E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{22791486-E721-4511-AA4B-DA26CF5D0F2E}.Release|x86.ActiveCfg = Release|x86
+		{22791486-E721-4511-AA4B-DA26CF5D0F2E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NervDog.vsmdi
+	EndGlobalSection
+EndGlobal

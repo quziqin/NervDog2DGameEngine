@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{0DD3AC84-6D1E-47DB-A9DC-BB46A2357627}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NervDog</RootNamespace>
+    <AssemblyName>NervDog</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>33eca3f3-863e-407f-aba0-85e5e5725028</XnaCrossPlatformGroupID>
+    <XnaOutputType>Library</XnaOutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IronPython, Version=2.7.0.40, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Dynamic, Version=1.1.0.20, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Scripting, Version=1.1.0.20, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AI\AI.cs" />
+    <Compile Include="AI\AIHelper.cs" />
+    <Compile Include="Animations\Animation.cs" />
+    <Compile Include="Animations\AnimationDef.cs" />
+    <Compile Include="Animations\EaseFunction.cs" />
+    <Compile Include="Animations\Fade.cs" />
+    <Compile Include="Animations\Frame.cs" />
+    <Compile Include="Animations\FrameDef.cs" />
+    <Compile Include="Animations\MoveXY.cs" />
+    <Compile Include="Animations\MoveZ.cs" />
+    <Compile Include="Animations\NullAnimation.cs" />
+    <Compile Include="Animations\Parallel.cs" />
+    <Compile Include="Animations\RotateX.cs" />
+    <Compile Include="Animations\RotateY.cs" />
+    <Compile Include="Animations\RotateZ.cs" />
+    <Compile Include="Animations\Scale.cs" />
+    <Compile Include="Animations\Sequence.cs" />
+    <Compile Include="Cameras\AnimatedCamera.cs" />
+    <Compile Include="Cameras\BaseCamera.cs" />
+    <Compile Include="Cameras\TargetCamera.cs" />
+    <Compile Include="Cameras\UnitCamera.cs" />
+    <Compile Include="Common\Constants.cs" />
+    <Compile Include="Common\Enums.cs" />
+    <Compile Include="Common\Event.cs" />
+    <Compile Include="Common\EventControllerDef.cs" />
+    <Compile Include="Common\EventListener.cs" />
+    <Compile Include="Common\EventController.cs" />
+    <Compile Include="Common\IEventController.cs" />
+    <Compile Include="Common\IListener.cs" />
+    <Compile Include="Common\RelatedGroupInfo.cs" />
+    <Compile Include="Common\Timer.cs" />
+    <Compile Include="Common\Variables.cs" />
+    <Compile Include="Core.cs" />
+    <Compile Include="Managers\AIManager.cs" />
+    <Compile Include="Managers\AuditionManager.cs" />
+    <Compile Include="Managers\CameraManager.cs" />
+    <Compile Include="Managers\EffectManager.cs" />
+    <Compile Include="Managers\GroupManager.cs" />
+    <Compile Include="Managers\InputManager.cs" />
+    <Compile Include="Managers\LoggerManager.cs" />
+    <Compile Include="Managers\SceneManager.cs" />
+    <Compile Include="Managers\XNADevicesManager.cs" />
+    <Compile Include="Misc\Board.cs" />
+    <Compile Include="Misc\HPBar.cs" />
+    <Compile Include="Misc\Logo.cs" />
+    <Compile Include="Render\ColorEffect.cs" />
+    <Compile Include="Render\DefaultEffect.cs" />
+    <Compile Include="Render\DrawNode.cs" />
+    <Compile Include="Render\DrawComponent.cs" />
+    <Compile Include="Render\IEffect.cs" />
+    <Compile Include="Managers\EventManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Render\RepeatSprite.cs" />
+    <Compile Include="Render\Scene.cs" />
+    <Compile Include="Render\Sprite.cs" />
+    <Compile Include="Render\SpriteDef.cs" />
+    <Compile Include="SceneTemplates\2DAVGScene.cs" />
+    <Compile Include="Soul\Actions\Attack.cs" />
+    <Compile Include="Soul\Actions\Dying.cs" />
+    <Compile Include="Soul\Actions\GotHit.cs" />
+    <Compile Include="Soul\Actions\IAction.cs" />
+    <Compile Include="Soul\Actions\Jump.cs" />
+    <Compile Include="Soul\Actions\Stop.cs" />
+    <Compile Include="Soul\Actions\TurnLeft.cs" />
+    <Compile Include="Soul\Actions\TurnRight.cs" />
+    <Compile Include="Soul\Actions\Walk.cs" />
+    <Compile Include="Soul\Character.cs" />
+    <Compile Include="Soul\Defs\AuditionDef.cs" />
+    <Compile Include="Soul\Defs\CharacterDef.cs" />
+    <Compile Include="Soul\ContactListener.cs" />
+    <Compile Include="Soul\DrawUnit.cs" />
+    <Compile Include="Soul\Defs\DrawUnitDef.cs" />
+    <Compile Include="Soul\Defs\ElementDef.cs" />
+    <Compile Include="Soul\SensorInfo.cs" />
+    <Compile Include="Soul\Defs\TerrainDef.cs" />
+    <Compile Include="Soul\Unit.cs" />
+    <Compile Include="Soul\Defs\UnitDef.cs" />
+    <Compile Include="Soul\World.cs" />
+    <Compile Include="Trace\BaseLogger.cs" />
+    <Compile Include="Trace\FileLogger.cs" />
+    <Compile Include="Trace\ILogger.cs" />
+    <Compile Include="Trace\XNALogger.cs" />
+    <Compile Include="Utilities\RandomHelper.cs" />
+    <Compile Include="Utilities\XmlHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Audition\" />
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Box2D.XNA\Box2D.XNA.csproj">
+      <Project>{22791486-E721-4511-AA4B-DA26CF5D0F2E}</Project>
+      <Name>Box2D.XNA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AI\AIScripts\Patrol.py">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="AI\AIScripts\Null.py">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

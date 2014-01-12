@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<AuditionDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Songs>
+    <string>surrounded</string>
+  </Songs>
+  <SoundEffects>
+    <string>mao</string>
+    <string>pipa</string>
+    <string>pipalike</string>
+  </SoundEffects>
+</AuditionDef>

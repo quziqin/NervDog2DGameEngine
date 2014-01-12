@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<SpriteDef xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Alpha>1</Alpha>
+  <B>1</B>
+  <DrawRectangle>
+    <X>0</X>
+    <Y>0</Y>
+    <Width>53</Width>
+    <Height>60</Height>
+    <Location>
+      <X>0</X>
+      <Y>0</Y>
+    </Location>
+  </DrawRectangle>
+  <G>1</G>
+  <R>1</R>
+  <RepeatX>0</RepeatX>
+  <RepeatY>0</RepeatY>
+  <RotateX>0</RotateX>
+  <RotateY>0</RotateY>
+  <RotateZ>0</RotateZ>
+  <ScaleX>1</ScaleX>
+  <ScaleY>1</ScaleY>
+  <TexName>dragonfly2</TexName>
+  <TransformOrigin>
+    <X>0.5</X>
+    <Y>0.5</Y>
+  </TransformOrigin>
+  <X>9070</X>
+  <Y>200</Y>
+  <Z>50</Z>
+  <ZWriteEnable>true</ZWriteEnable>
+</SpriteDef>
