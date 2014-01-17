@@ -3,7 +3,9 @@ NervDog 2D Game Engine
 NervDog is a simple 2D game engine based on XNA and Box2D
 
 General Code Structure:
-  NervDog
+  
+NervDog
+
     |----Common           //Include EventSystem, Constants, etc
           |----EventSystem
           |----Constants and other common class
