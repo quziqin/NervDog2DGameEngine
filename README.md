@@ -4,6 +4,7 @@ NervDog is a simple 2D game engine based on XNA and Box2D
 
 A simple demo PaperChineseOpera has already been built based on NervDog.
 You can check the demo video for PaperChineseOpera http://quziqin.com/projects/HIHGameDemo.flv
+or the demo pic at http://quziqin.com/ PaperChineseOpera project area.
 
 General Code Structure:
   
