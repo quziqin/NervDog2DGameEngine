@@ -1,10 +1,12 @@
 NervDog 2D Game Engine
 ===================
-NervDog is a simple 2D game engine based on XNA and Box2D
+NervDog is based on XNA 4.0 and Box2D, which can be used to made 2D/2.5D games. NervDog's predecessor was called “Harmony”. 2 of my classmates and I formed HIHGameStudio (2 artists, I’m the only dev) in university, “Harmony” was created. And a demo game named Paper Chinese Opera was made based on it.
+Paper Chinese Opera puts paper like 2D characters in a 3D environment, and the traditional Chinese style puts you in an unprecedented aura. But the main features have not been implemented yet. After my recent optimization and refactor, it was renamed to NervDog 2D Game Engine.
 
 A simple demo PaperChineseOpera has already been built based on NervDog.
 You can check the demo video for PaperChineseOpera http://quziqin.com/projects/HIHGameDemo.flv
 or the demo pic at http://quziqin.com/ PaperChineseOpera project area.
+PaperChineseOpera.rar contains the demo binaries, you can try to run the PaperChineseOpera.exe, if you cannot run it successfully, please install xnafx40_redist.msi from http://www.microsoft.com/en-us/download/details.aspx?id=20914
 
 General Code Structure:
   
